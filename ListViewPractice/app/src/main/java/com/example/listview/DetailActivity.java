@@ -16,11 +16,11 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        TextView txtView=findViewById(R.id.textViewDetail);
         Intent intent =getIntent();
-      TextView txtView=findViewById(R.id.textViewDetail);
 
-      Log.d("Checking",intent.getStringExtra("Friend Name"))   ;
-      txtView.setText(intent.getStringExtra("Friend name"));
+        Log.d("Checking",intent.getStringExtra("Friend Name"))   ;
+        txtView.setText(intent.getStringExtra("Friend Name"));
 
 
     }
