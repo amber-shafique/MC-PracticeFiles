@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sqlite</string>
+    <string name="Name">Please enter Name</string>
+    <string name="Age">Please enter Age</string>
+    <string name="isActive">Active or not</string>
+    <string name="buttonAdd">ADD RECORD</string>
+    <string name="buttonView">VIEW  RECORD</string>
+</resources>
